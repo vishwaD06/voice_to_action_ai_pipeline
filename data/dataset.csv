@@ -1,0 +1,51 @@
+text,intent
+"Bhai price batao Mumbai to Pune 10kg",CHECK_RATE
+"Rate kya hai Delhi se Bangalore 5 boxes",CHECK_RATE
+"Khargar to Thane courier charges batao",CHECK_RATE
+"15 kg ka freight charge kya hoga",CHECK_RATE
+"Mumbai to Gurgaon delivery cost",CHECK_RATE
+"Andheri se Powai pickup karna hai 2 boxes",BOOK_PICKUP
+"Kal morning pickup possible hai kya",BOOK_PICKUP
+"Pickup schedule kar do evening 6 baje",BOOK_PICKUP
+"Courier pickup book karo urgent",BOOK_PICKUP
+"Ghar se pickup le lo 3 packages hai",BOOK_PICKUP
+"Mera order track karo",TRACK_ORDER
+"Parcel kaha hai batao",TRACK_ORDER
+"Delivery status check karna hai",TRACK_ORDER
+"AWB number diya tha tracking batao",TRACK_ORDER
+"Shipment location share karo",TRACK_ORDER
+"Order cancel kar do",CANCEL_ORDER
+"Pickup cancel karna hai",CANCEL_ORDER
+"Booking remove kar do please",CANCEL_ORDER
+"Courier nahi chahiye cancel karo",CANCEL_ORDER
+"Mera parcel cancel ho sakta hai kya",CANCEL_ORDER
+"Pickup time change karna hai",RESCHEDULE_PICKUP
+"Kal ki jagah parso pickup karo",RESCHEDULE_PICKUP
+"Evening ki jagah morning pickup possible hai",RESCHEDULE_PICKUP
+"Time reschedule kar do 4 PM pe",RESCHEDULE_PICKUP
+"Pickup date postpone karna hai",RESCHEDULE_PICKUP
+"Delivery nahi hui complaint register karo",RAISE_COMPLAINT
+"Parcel damaged hai complaint dena hai",RAISE_COMPLAINT
+"Driver ka behavior complaint karna hai",RAISE_COMPLAINT
+"Late delivery ke liye escalate karo",RAISE_COMPLAINT
+"Package missing hai ticket raise karo",RAISE_COMPLAINT
+"Customer care se baat karni hai",CONNECT_TO_AGENT
+"Agent se connect karo urgent",CONNECT_TO_AGENT
+"Executive se baat karwao",CONNECT_TO_AGENT
+"Human support chahiye",CONNECT_TO_AGENT
+"Manager se connect kar do",CONNECT_TO_AGENT
+"COD available hai kya",PAYMENT_QUERY
+"Payment mode kya kya hai",PAYMENT_QUERY
+"Online payment kar sakta hoon",PAYMENT_QUERY
+"Cash on delivery option hai",PAYMENT_QUERY
+"Refund kab milega",PAYMENT_QUERY
+"Invoice upload karna hai",DOCUMENT_UPLOAD_QUERY
+"Document submit karne hai",DOCUMENT_UPLOAD_QUERY
+"KYC papers kaise bhejun",DOCUMENT_UPLOAD_QUERY
+"GST certificate upload karna hai",DOCUMENT_UPLOAD_QUERY
+"ID proof attach karna hai",DOCUMENT_UPLOAD_QUERY
+"Noida se Ghaziabad serviceable hai kya",CHECK_SERVICEABILITY
+"Delivery hoti hai remote area me",CHECK_SERVICEABILITY
+"Pin code 400001 covered hai",CHECK_SERVICEABILITY
+"Kashmir me delivery possible hai",CHECK_SERVICEABILITY
+"Tier 3 city me service available hai kya",CHECK_SERVICEABILITY
